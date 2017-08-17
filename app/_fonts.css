@@ -1,9 +1,27 @@
 @font-face {
-	font-family: "RobotoRegular";
-	src: url("fonts/RobotoRegular/RobotoRegular.eot");
-	src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
-			 url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
-			 url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-family: "HeliosCond";
+	src: url("fonts/HeliosCondRegular.eot");
+	src: url("fonts/HeliosCondRegular.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/HeliosCond.woff") format("woff"),
+			 url("fonts/HeliosCond.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HeliosCondCBold";
+	src: url("fonts/HeliosCondCBold.eot");
+	src: url("fonts/HeliosCondCBold.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/HeliosCond-Bold.woff") format("woff"),
+			 url("fonts/HeliosCond-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HeliosCondLightC";
+	src: url("fonts/HeliosCondLightC.eot");
+	src: url("fonts/HeliosCondLightC.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/HeliosCondLightC.woff") format("woff"),
+			 url("fonts/HeliosCondLightC.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
