@@ -2,14 +2,12 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
@@ -36,12 +34,10 @@
 	}
 
 }
-
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
 
 }
-
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
 
@@ -50,38 +46,26 @@
 @media only screen and (max-width : 568px) {
 
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     
 }
-
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
 
 }
-
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
 
 }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 360px) {
 
 }
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
 }
-
-
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
@@ -109,5 +93,5 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+	
 }

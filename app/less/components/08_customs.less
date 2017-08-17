@@ -1,0 +1,104 @@
+.customs {
+	width: 100%;
+	min-height: 1153px;
+	background: url("@{dir}bg-customs-desk.jpg") center;
+  	background-size: cover;
+  	padding-top: 270px;
+}
+.customs-clearance {
+	padding-top: 55px;
+}
+.customs-clearance h2 {
+	color: @white;
+}
+.customs-clearance ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 240px;
+	padding: 0;
+	margin: 0;	
+	li {
+		list-style-type: none;
+		margin-bottom: 20px;		
+		a {
+			text-transform: uppercase;
+			font-family: @ff2;
+			color: @white;
+			font-size: @fsb;
+		}
+	}
+}
+.customs-clearance .land-customs {
+	width: 555px;
+	li {
+		width: 240px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 70px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}	
+}
+.customs-clearance .maritime-customs {
+	padding-top: 67px;
+	margin-right: 70px;
+	margin-bottom: 35px;
+}
+.customs-clearance .aviation-customs,
+.customs-clearance .land-customs {
+	padding-top: 67px;
+}
+.customs-clearance .maritime-customs,
+.customs-clearance .aviation-customs,
+.customs-clearance .land-customs {
+	position: relative;
+}
+.customs-clearance .maritime-customs:before {
+	content: '';
+	background: url("../img/svg/default_ship.svg") center no-repeat;
+	background-size: cover;
+	width: 63px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+}
+.customs-clearance .aviation-customs:before {
+	content: '';
+	background: url("../img/svg/default_plane.svg") center no-repeat;
+	background-size: cover;
+	width: 43px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+}
+.customs-clearance .land-customs:before {
+	content: '';
+	background: url("../img/svg/default_truck.svg") center no-repeat;
+	background-size: cover;
+	width: 57px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+}
+.customs-clearance .maritime-customs:after,
+.customs-clearance .aviation-customs:after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #074552;
+	position: absolute;
+	top: 39px;
+	left: 0;
+}
+.customs-clearance .land-customs:after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #074552;
+	position: absolute;
+	top: 35px;
+	left: 0;
+}
+
+

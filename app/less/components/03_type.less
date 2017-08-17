@@ -1,6 +1,7 @@
 body {
 	font-family: @ff;
 	font-size: @fs;
+	background: #fff;
 }
 p {
 	font-size: @fs; 
@@ -54,17 +55,16 @@ a {
 	font-size: @fs; 
 	line-height: @lh; 
 	color: @text-color; 
-	margin: @text-margin;
+	margin: @text-margin;	
 	&:hover {
 		text-decoration: underline;
 	}
 }
 .main-headline {
-	font-family: @ff;
-	.fs(@h2);
-	text-align: center;
+	font-family: @ff2;
+	.fs(@h2);	
 	text-transform: uppercase;	
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .align-right {text-align: right;}
 
@@ -74,4 +74,7 @@ a {
 .table-cell {
 	display: table-cell;
 	vertical-align: middle;
+}
+img {
+	max-width: 100%;
 }
