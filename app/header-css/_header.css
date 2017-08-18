@@ -69,7 +69,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	position: absolute;
 	top: 5px;
 	left: -20px;
-	opacity: 0;	
+	opacity: 0;
+	transition: 0.7s opacity;	
 }
 .top-header-nav ul li a:hover {
 	text-decoration: none;	

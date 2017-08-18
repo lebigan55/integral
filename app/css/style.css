@@ -615,6 +615,7 @@ label.error {
   background: url("../img/bg-customs-desk.jpg") center;
   background-size: cover;
   padding-top: 270px;
+  position: relative;
 }
 .customs-clearance {
   padding-top: 55px;
@@ -638,6 +639,11 @@ label.error {
   font-family: 'HeliosCondLightC', sans-serif;
   color: #fff;
   font-size: 22px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.customs-clearance ul li a:hover {
+  color: #d3a65e;
 }
 .customs-clearance .land-customs {
   width: 555px;
@@ -673,6 +679,17 @@ label.error {
   height: 32px;
   position: absolute;
   top: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.customs-clearance .maritime-customs:hover:before {
+  content: '';
+  background: url("../img/svg/hover_ship.svg") center no-repeat;
+  background-size: cover;
+  width: 63px;
+  height: 32px;
+  position: absolute;
+  top: 0;
 }
 .customs-clearance .aviation-customs:before {
   content: '';
@@ -682,10 +699,32 @@ label.error {
   height: 35px;
   position: absolute;
   top: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.customs-clearance .aviation-customs:hover:before {
+  content: '';
+  background: url("../img/svg/hover_plane.svg") center no-repeat;
+  background-size: cover;
+  width: 43px;
+  height: 35px;
+  position: absolute;
+  top: 0;
 }
 .customs-clearance .land-customs:before {
   content: '';
   background: url("../img/svg/default_truck.svg") center no-repeat;
+  background-size: cover;
+  width: 57px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.customs-clearance .land-customs:hover:before {
+  content: '';
+  background: url("../img/svg/hover_truck.svg") center no-repeat;
   background-size: cover;
   width: 57px;
   height: 24px;
@@ -710,4 +749,93 @@ label.error {
   position: absolute;
   top: 35px;
   left: 0;
+}
+.ship:before {
+  content: '';
+  background: url("../img/svg/geoteg_ship.svg") center no-repeat;
+  background-size: cover;
+  width: 176px;
+  height: 179px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.7s opacity;
+  transition: 0.7s opacity;
+}
+.ship:hover:before {
+  opacity: 1;
+}
+.ship-st-piter:before {
+  top: -65px;
+  left: -450px;
+}
+.ship-kingisep:before {
+  top: -65px;
+  left: -480px;
+}
+.plane:before {
+  content: '';
+  background: url("../img/svg/geoteg_plane.svg") center no-repeat;
+  background-size: cover;
+  width: 176px;
+  height: 179px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.7s opacity;
+  transition: 0.7s opacity;
+}
+.plane:hover:before {
+  opacity: 1;
+}
+.plane-st-piter:before {
+  top: -65px;
+  left: -760px;
+}
+.plane-moscow:before {
+  top: 137px;
+  left: -826px;
+}
+.truck:before {
+  content: '';
+  background: url("../img/svg/geoteg_truck.svg") center no-repeat;
+  background-size: cover;
+  width: 176px;
+  height: 179px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.7s opacity;
+  transition: 0.7s opacity;
+}
+.truck:hover:before {
+  opacity: 1;
+}
+.truck-st-piter:before {
+  top: -260px;
+  left: -450px;
+}
+.truck-smolensk:before {
+  top: -105px;
+  left: -570px;
+}
+.truck-pskov:before {
+  top: -205px;
+  left: -538px;
+}
+.truck-kingisep:before {
+  top: -260px;
+  left: -480px;
+}
+.truck-vyborg:before {
+  top: -285px;
+  left: -440px;
+}
+.truck-moscow:before {
+  top: -60px;
+  left: -515px;
+}
+.services {
+  width: 100%;
+  min-height: 1153px;
+  background: url("../img/bg-services-desk.jpg") center;
+  background-size: cover;
+  padding-top: 270px;
 }

@@ -4,6 +4,7 @@
 	background: url("@{dir}bg-customs-desk.jpg") center;
   	background-size: cover;
   	padding-top: 270px;
+  	position: relative;
 }
 .customs-clearance {
 	padding-top: 55px;
@@ -16,7 +17,7 @@
 	vertical-align: top;
 	width: 240px;
 	padding: 0;
-	margin: 0;	
+	margin: 0;		
 	li {
 		list-style-type: none;
 		margin-bottom: 20px;		
@@ -25,6 +26,10 @@
 			font-family: @ff2;
 			color: @white;
 			font-size: @fsb;
+			transition: 0.5s ease;
+			&:hover {
+				color: @gold;
+			}
 		}
 	}
 }
@@ -54,32 +59,74 @@
 .customs-clearance .land-customs {
 	position: relative;
 }
-.customs-clearance .maritime-customs:before {
-	content: '';
-	background: url("../img/svg/default_ship.svg") center no-repeat;
-	background-size: cover;
-	width: 63px;
-    height: 32px;
-    position: absolute;
-    top: 0;
+.customs-clearance .maritime-customs {	
+	&:before {
+		content: '';
+		background: url("../img/svg/default_ship.svg") center no-repeat;
+		background-size: cover;
+		width: 63px;
+	    height: 32px;
+	    position: absolute;
+	    top: 0;
+	    transition: 0.5s ease;
+	}
+	&:hover {
+    	&:before {
+	    	content: '';
+	    	background: url("../img/svg/hover_ship.svg") center no-repeat;
+			background-size: cover;
+			width: 63px;
+	    	height: 32px;
+		    position: absolute;
+		    top: 0;
+	    }
+    }
 }
-.customs-clearance .aviation-customs:before {
-	content: '';
-	background: url("../img/svg/default_plane.svg") center no-repeat;
-	background-size: cover;
-	width: 43px;
-    height: 35px;
-    position: absolute;
-    top: 0;
+.customs-clearance .aviation-customs {	
+	&:before {
+		content: '';
+		background: url("../img/svg/default_plane.svg") center no-repeat;
+		background-size: cover;
+		width: 43px;
+	    height: 35px;
+	    position: absolute;
+	    top: 0;
+	    transition: 0.5s ease;
+    }
+    &:hover {
+    	&:before {
+	    	content: '';
+	    	background: url("../img/svg/hover_plane.svg") center no-repeat;
+			background-size: cover;
+			width: 43px;
+		    height: 35px;
+		    position: absolute;
+		    top: 0;
+	    }
+    }
 }
-.customs-clearance .land-customs:before {
-	content: '';
-	background: url("../img/svg/default_truck.svg") center no-repeat;
-	background-size: cover;
-	width: 57px;
-    height: 24px;
-    position: absolute;
-    top: 0;
+.customs-clearance .land-customs {	
+	&:before {
+		content: '';
+		background: url("../img/svg/default_truck.svg") center no-repeat;
+		background-size: cover;
+		width: 57px;
+	    height: 24px;
+	    position: absolute;
+	    top: 0;
+	    transition: 0.5s ease;
+	}
+	&:hover {
+		&:before {
+			content: '';
+			background: url("../img/svg/hover_truck.svg") center no-repeat;
+			background-size: cover;
+			width: 57px;
+		    height: 24px;
+		    position: absolute;
+		    top: 0;
+		}
+	}
 }
 .customs-clearance .maritime-customs:after,
 .customs-clearance .aviation-customs:after {
@@ -100,5 +147,114 @@
 	top: 35px;
 	left: 0;
 }
-
-
+.ship {
+	&:before {
+		content: '';
+		background: url("../img/svg/geoteg_ship.svg") center no-repeat;
+		background-size: cover;
+		width: 176px;
+	    height: 179px;
+	    position: absolute;
+	    opacity: 0;
+	    transition: 0.7s opacity;	    
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+		}
+	}
+}
+.ship-st-piter {
+	&:before {
+		top: -65px;
+		left: -450px;
+	}
+}
+.ship-kingisep {
+	&:before {
+		top: -65px;
+		left: -480px;
+	}
+}
+.plane {
+	&:before {
+		content: '';
+		background: url("../img/svg/geoteg_plane.svg") center no-repeat;
+		background-size: cover;
+		width: 176px;
+	    height: 179px;
+	    position: absolute;
+	    opacity: 0;
+	    transition: 0.7s opacity;	    
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+		}
+	}
+}
+.plane-st-piter {
+	&:before {
+		top: -65px;
+		left: -760px;
+	}
+}
+.plane-moscow {
+	&:before {
+		top: 137px;
+		left: -826px;
+	}
+}
+.truck {
+	&:before {
+		content: '';
+		background: url("../img/svg/geoteg_truck.svg") center no-repeat;
+		background-size: cover;
+		width: 176px;
+	    height: 179px;
+	    position: absolute;
+	    opacity: 0;
+	    transition: 0.7s opacity;	    
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+		}
+	}
+}
+.truck-st-piter {
+	&:before {
+		top: -260px;
+		left: -450px;
+	}
+}
+.truck-smolensk {
+	&:before {
+		top: -105px;
+		left: -570px;
+	}
+}
+.truck-pskov {
+	&:before {
+		top: -205px;
+		left: -538px;		
+	}
+}
+.truck-kingisep {
+	&:before {
+		top: -260px;
+		left: -480px;		
+	}
+}
+.truck-vyborg {
+	&:before {
+		top: -285px;
+		left: -440px;		
+	}
+}
+.truck-moscow {
+	&:before {
+		top: -60px;
+		left: -515px;		
+	}
+}
