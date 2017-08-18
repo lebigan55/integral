@@ -615,6 +615,8 @@ label.error {
   background: url("../img/bg-customs-desk.jpg") center;
   background-size: cover;
   padding-top: 270px;
+}
+.map {
   position: relative;
 }
 .customs-clearance {
@@ -750,92 +752,104 @@ label.error {
   top: 35px;
   left: 0;
 }
-.ship:before {
-  content: '';
-  background: url("../img/svg/geoteg_ship.svg") center no-repeat;
-  background-size: cover;
+.ship {
+  display: none;
   width: 176px;
   height: 179px;
   position: absolute;
-  opacity: 0;
-  -webkit-transition: 0.7s opacity;
-  transition: 0.7s opacity;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
-.ship:hover:before {
-  opacity: 1;
+.ship-st-piter {
+  top: 69px;
+  left: 138px;
 }
-.ship-st-piter:before {
-  top: -65px;
-  left: -450px;
+.ship-kingisep {
+  top: 70px;
+  left: 105px;
 }
-.ship-kingisep:before {
-  top: -65px;
-  left: -480px;
-}
-.plane:before {
-  content: '';
-  background: url("../img/svg/geoteg_plane.svg") center no-repeat;
-  background-size: cover;
+.plane {
+  display: none;
   width: 176px;
   height: 179px;
   position: absolute;
-  opacity: 0;
-  -webkit-transition: 0.7s opacity;
-  transition: 0.7s opacity;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
-.plane:hover:before {
-  opacity: 1;
+.plane-st-piter {
+  top: 69px;
+  left: 138px;
 }
-.plane-st-piter:before {
-  top: -65px;
-  left: -760px;
+.plane-moscow {
+  top: 270px;
+  left: 73px;
 }
-.plane-moscow:before {
-  top: 137px;
-  left: -826px;
-}
-.truck:before {
-  content: '';
-  background: url("../img/svg/geoteg_truck.svg") center no-repeat;
-  background-size: cover;
+.truck {
+  display: none;
   width: 176px;
   height: 179px;
   position: absolute;
-  opacity: 0;
-  -webkit-transition: 0.7s opacity;
-  transition: 0.7s opacity;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
-.truck:hover:before {
-  opacity: 1;
+.truck-st-piter {
+  top: 69px;
+  left: 138px;
 }
-.truck-st-piter:before {
-  top: -260px;
-  left: -450px;
+.truck-smolensk {
+  top: 228px;
+  left: 14px;
 }
-.truck-smolensk:before {
-  top: -105px;
-  left: -570px;
+.truck-pskov {
+  top: 127px;
+  left: 47px;
 }
-.truck-pskov:before {
-  top: -205px;
-  left: -538px;
+.truck-kingisep {
+  top: 70px;
+  left: 105px;
 }
-.truck-kingisep:before {
-  top: -260px;
-  left: -480px;
+.truck-vyborg {
+  top: 43px;
+  left: 144px;
 }
-.truck-vyborg:before {
-  top: -285px;
-  left: -440px;
+.truck-moscow {
+  top: 270px;
+  left: 73px;
 }
-.truck-moscow:before {
-  top: -60px;
-  left: -515px;
+.spoiler_links.active {
+  font-family: 'HeliosCondCBold', sans-serif;
+  color: #d3a65e;
 }
 .services {
   width: 100%;
-  min-height: 1153px;
+  min-height: 1133px;
   background: url("../img/bg-services-desk.jpg") center;
+  background-size: cover;
+  padding-top: 290px;
+}
+.services h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 90px;
+}
+.services-top img,
+.services-bottom img {
+  width: 96px;
+  height: 78px;
+  margin-bottom: 25px;
+}
+.services-top p,
+.services-bottom p {
+  text-transform: uppercase;
+  font-family: 'HeliosCondLightC', sans-serif;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 85px;
+}
+.contacts {
+  width: 100%;
+  min-height: 1287px;
+  background: url("../img/bg-contacts-desk.jpg") center;
   background-size: cover;
   padding-top: 270px;
 }

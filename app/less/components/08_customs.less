@@ -3,8 +3,10 @@
 	min-height: 1153px;
 	background: url("@{dir}bg-customs-desk.jpg") center;
   	background-size: cover;
-  	padding-top: 270px;
-  	position: relative;
+  	padding-top: 270px;  	
+}
+.map {
+	position: relative;
 }
 .customs-clearance {
 	padding-top: 55px;
@@ -147,114 +149,68 @@
 	top: 35px;
 	left: 0;
 }
-.ship {
-	&:before {
-		content: '';
-		background: url("../img/svg/geoteg_ship.svg") center no-repeat;
-		background-size: cover;
-		width: 176px;
-	    height: 179px;
-	    position: absolute;
-	    opacity: 0;
-	    transition: 0.7s opacity;	    
-	}
-	&:hover {
-		&:before {
-			opacity: 1;
-		}
-	}
+.ship {	
+	display: none;
+	width: 176px;
+    height: 179px;
+    position: absolute;    
+    transition: 0.7s ease; 
 }
-.ship-st-piter {
-	&:before {
-		top: -65px;
-		left: -450px;
-	}
+.ship-st-piter {	
+	top: 69px;
+	left: 138px;
 }
-.ship-kingisep {
-	&:before {
-		top: -65px;
-		left: -480px;
-	}
+.ship-kingisep {	
+	top: 70px;
+	left: 105px;
 }
 .plane {
-	&:before {
-		content: '';
-		background: url("../img/svg/geoteg_plane.svg") center no-repeat;
-		background-size: cover;
-		width: 176px;
-	    height: 179px;
-	    position: absolute;
-	    opacity: 0;
-	    transition: 0.7s opacity;	    
-	}
-	&:hover {
-		&:before {
-			opacity: 1;
-		}
-	}
+	display: none;	
+	width: 176px;
+    height: 179px;
+    position: absolute;    
+    transition: 0.7s ease;	
 }
 .plane-st-piter {
-	&:before {
-		top: -65px;
-		left: -760px;
-	}
+	top: 69px;
+	left: 138px;	
 }
-.plane-moscow {
-	&:before {
-		top: 137px;
-		left: -826px;
-	}
+.plane-moscow {	
+	top: 270px;
+	left: 73px;	
 }
-.truck {
-	&:before {
-		content: '';
-		background: url("../img/svg/geoteg_truck.svg") center no-repeat;
-		background-size: cover;
-		width: 176px;
-	    height: 179px;
-	    position: absolute;
-	    opacity: 0;
-	    transition: 0.7s opacity;	    
-	}
-	&:hover {
-		&:before {
-			opacity: 1;
-		}
-	}
+.truck {	
+	display: none;
+	width: 176px;
+    height: 179px;
+    position: absolute;    
+    transition: 0.7s ease; 
 }
-.truck-st-piter {
-	&:before {
-		top: -260px;
-		left: -450px;
-	}
+.truck-st-piter {	
+	top: 69px;
+	left: 138px;
 }
 .truck-smolensk {
-	&:before {
-		top: -105px;
-		left: -570px;
-	}
+	top: 228px;
+	left: 14px;
 }
-.truck-pskov {
-	&:before {
-		top: -205px;
-		left: -538px;		
-	}
+.truck-pskov {	
+	top: 127px;
+	left: 47px;		
 }
-.truck-kingisep {
-	&:before {
-		top: -260px;
-		left: -480px;		
-	}
+.truck-kingisep {	
+	top: 70px;
+	left: 105px;		
 }
-.truck-vyborg {
-	&:before {
-		top: -285px;
-		left: -440px;		
-	}
+.truck-vyborg {	
+	top: 43px;
+	left: 144px;		
 }
-.truck-moscow {
-	&:before {
-		top: -60px;
-		left: -515px;		
-	}
+.truck-moscow {	
+	top: 270px;
+	left: 73px;		
+}
+.spoiler_links.active {	
+	font-family: @ff1;
+	color: @gold;
 }
