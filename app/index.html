@@ -41,44 +41,53 @@
 	<div class="remodal-bg">
 		<header class="main-header">
 			<div class="container clearfix">
-				<div class="window">
-					<div class="header">
-						<div class="burger-container">
-							<div id="burger">
-								<div class="bar topBar"></div>
-								<div class="bar btmBar"></div>
+				<div class="row">
+					<div class="col-md-12">
+						<nav class="mobile-nav-wrap" role="navigation">
+							<div class="mobile-header-nav">
+								<div class="row">
+									<div class="col-md-10 col-md-offset-1">
+										<ul class="mobile-column">
+											<li class="menu-item"><a href="#about">О компании</a></li>
+											<li class="menu-item"><a href="#customs">Таможни</a></li>
+											<li class="menu-item"><a href="#services">Услуги</a></li>
+											<li class="menu-item"><a href="#contacts">Контакты</a></li>	
+										</ul>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="icon icon-apple"></div>
-						<ul class="menu">
-							<li class="menu-item"><a href="#about">О компании</a></li>
-							<li class="menu-item"><a href="#customs">Таможни</a></li>
-							<li class="menu-item"><a href="#services">Услуги</a></li>
-							<li class="menu-item"><a href="#contacts">Контакты</a></li>
-						</ul>
-						<div class="shop icon icon-bag"></div>
+						</nav>
+						<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+							<span class="menu-item"></span>
+							<span class="menu-item"></span>
+							<span class="menu-item"></span>
+						</a> 
 					</div>
-				</div> <!-- end mobile menu-->
+				</div>
+				
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="logo-top-wrap">
 							<img src="img/top-logo.png" alt="top-logo">
 						</div>	
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6">
 						<div class="feedback">
-							<a href="#">написать нам</a> |
-							<a href="#">заказать звонок</a>
-						</div>
-					</div>
-					<div class="col-sm-2">
+							<a href="#modal">написать нам</a> |
+							<a href="#modal-1">заказать звонок</a>
+						</div>					
 						<div class="callback">
-							<a href="tel:88123631690">8 812 363-16-90</a>
+							<a href="tel:78123631690">8 812 363-16-90</a>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-lg-6 col-lg-push-6">
+						<div class="main-screen-headline">
+							<h1>лучшие специалисты таможенного дела</h1>
+						</div>
+					</div>
+					<div class="col-lg-6 col-lg-pull-6">
 						<div class="nav-wrap">
 							<nav class="top-header-nav">
 								<ul class="top-nav__list">
@@ -97,12 +106,7 @@
 								</ul>
 							</nav><!-- end nav -->
 						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="main-screen-headline">
-							<h1>лучшие специалисты таможенного дела</h1>
-						</div>
-					</div>
+					</div>					
 				</div>
 				<div class="row">
 					<div class="equipment">
@@ -122,6 +126,9 @@
 								<img src="img/loader.png" alt="loader">
 							</div>
 						</div>
+					</div>
+					<div class="equipment-tablet">
+						<img src="img/truck-2.png" alt="truck-2">
 					</div>
 				</div>
 			</div>
@@ -130,10 +137,10 @@
 		<section class="about" id="about">
 			<div class="container clearfix">
 				<div class="row">
-					<div class="col-sm-9 col-sm-offset-3 col-md-6 col-md-offset-6">
+					<div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 col-lg-6 col-lg-offset-6">
 						<div class="about-content">
 							<h2 class="main-headline">О компании</h2>
-							<p>На сегодняшний день ООО «Интеграл» успешно работает уже более<br> 5 лет. Компания создавалась как площадка для реализации<br> смелых идей инициативных и ответственных специалистов.<br> За прошедшее время было реализовано много планов, достигнуты<br> поставленные цели. Компания уверенно развивается и смотрит<br> в будущее без страха.</p>
+							<p>На сегодняшний день ООО «Интеграл» успешно работает уже более 5 лет. Компания создавалась как площадка для реализации смелых идей инициативных и ответственных специалистов. За прошедшее время было реализовано много планов, достигнуты поставленные цели. Компания уверенно развивается и смотрит<br> в будущее без страха.</p>
 						</div>
 					</div>
 				</div>
@@ -156,49 +163,17 @@
 							</div>
 						</div>
 					</div>
+					<div class="equipment-tablet">
+						<img src="img/truck-2.png" alt="truck-2">
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="customs" id="customs">
 			<div class="container clearfix">
-				<div class="row">					
-					<div class="col-md-6">
-						<div class="map">
-							<img src="img/map.png" alt="map">
-							<div class="ship ship-st-piter block">
-								<img src="img/svg/geoteg_ship.svg" alt="geoteg_ship">
-							</div>
-							<div class="ship ship-kingisep block-1">
-								<img src="img/svg/geoteg_ship.svg" alt="geoteg_ship">
-							</div>
-							<div class="plane plane-st-piter block-2">
-								<img src="img/svg/geoteg_plane.svg" alt="geoteg_plane">
-							</div>
-							<div class="plane plane-moscow block-3">
-								<img src="img/svg/geoteg_plane.svg" alt="geoteg_plane">
-							</div>
-							<div class="truck truck-st-piter block-4">
-								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
-							</div>
-							<div class="truck truck-smolensk block-5">
-								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
-							</div>
-							<div class="truck truck-pskov block-6">
-								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
-							</div>
-							<div class="truck truck-kingisep block-7">
-								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
-							</div>
-							<div class="truck truck-vyborg block-8">
-								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
-							</div>
-							<div class="truck truck-moscow block-9">
-								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
+				<div class="row">
+					<div class="col-lg-6 col-lg-push-6">
 						<div class="customs-clearance">
 							<h2 class="main-headline">таможни оформления</h2>
 							<ul class="maritime-customs">
@@ -245,6 +220,41 @@
 									</ul>
 								</li>
 							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6 col-lg-pull-6">
+						<div class="map">
+							<img src="img/map.png" alt="map">
+							<div class="ship ship-st-piter block">
+								<img src="img/svg/geoteg_ship.svg" alt="geoteg_ship">
+							</div>
+							<div class="ship ship-kingisep block-1">
+								<img src="img/svg/geoteg_ship.svg" alt="geoteg_ship">
+							</div>
+							<div class="plane plane-st-piter block-2">
+								<img src="img/svg/geoteg_plane.svg" alt="geoteg_plane">
+							</div>
+							<div class="plane plane-moscow block-3">
+								<img src="img/svg/geoteg_plane.svg" alt="geoteg_plane">
+							</div>
+							<div class="truck truck-st-piter block-4">
+								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
+							</div>
+							<div class="truck truck-smolensk block-5">
+								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
+							</div>
+							<div class="truck truck-pskov block-6">
+								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
+							</div>
+							<div class="truck truck-kingisep block-7">
+								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
+							</div>
+							<div class="truck truck-vyborg block-8">
+								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
+							</div>
+							<div class="truck truck-moscow block-9">
+								<img src="img/svg/geoteg_truck.svg" alt="geoteg_truck">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -303,44 +313,97 @@
 
 		<section class="contacts" id="contacts">
 			<div class="container clearfix">
-
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-6">
+						<div class="contacts-data-wrap">
+							<h2 class="main-headline">Контакты</h2>
+							<p>Санкт-Петербург,<br>Митрофаньевское шоссе 29Т<br> БЦ Казначейский <br>3-й этаж</p>
+							<a href="tel:78123631690">8 (812) 363-16-90</a>
+							<div class="contacts-feedback">
+								<div class="contacts-feedback__callback">
+									<a href="#modal-1">заказать обратный звонок</a>
+								</div>
+								<div class="contacts-feedback__write">
+									<a href="#modal">написать нам</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		
 		<footer class="main-footer">			
 			<div class="container clearfix">
-
+				<a href="#modal-2">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
 			</div>
 		</footer>
 	</div>
 	<!-- Модальное окно -->
-	<div class="remodal" data-remodal-id="modal" role="dialog">
+	<div class="remodal remodal-feedback" data-remodal-id="modal" role="dialog">
 		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 		<div>
-			<h2>Заполните форму</h2>
-			<p>и наш специалист свяжется с Вами в течение 15 минут</p>
+			<h3>написать нам</h3>			
 			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form" name="main-form">
 				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="vilar-agro">
-				<input type="hidden" name="admin_email" value="vilaragro@gmail.com">
-				<input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
+				<input type="hidden" name="project_name" value="integral">
+				<input type="hidden" name="admin_email" value="mail@gmail.com">
+				<input type="hidden" name="form_subject" value="Заявка с лендинга «Интеграл»">
 				<!-- END Hidden Required Fields -->
 				<div class="input-group">
 					<input type="text"  name="name" placeholder="Ваше имя" required>
 				</div>
 				<div class="input-group">
-					<input type="email"  name="email" placeholder="Ваш e-mail" required>
+					<input type="email"  name="email" placeholder="e-mail" required>
 				</div>
-				<div class="input-group">
-					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+				<div class="input-group-text">
+					<textarea id="message-1" name="text" cols="30" rows="10" placeholder="Введите текст сообщения" required></textarea>	
 				</div>
-				<input type="hidden"  name="s_formi" value="Получить консультацию">
-				<button type="submit" name="submit" class="btn btn-blue modal-btn">Получить консультацию</button>
+				<div class="checkbox-wrap">			
+					<label>
+						<input class="checkbox" type="checkbox" name="name">						
+						<span class="modal-checkbox">Отправляя данную форму я соглашаюсь на обработку и хранение  введенных данных</a>
+						</span>
+					</label>
+				</div>
+				<input type="hidden"  name="s_formi" value="написать нам">
+				<button type="submit" name="submit" class="btn modal-btn">отправить</button>
 			</form>
 		</div>
 		<br>
 	</div>
 	<!-- Конец Модальное окно  -->
+	<!-- Модальное окно заказать звонок -->
+	<div class="remodal remodal-feedback" data-remodal-id="modal-1" role="dialog">
+		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+		<div>
+			<h3>заказать звонок</h3>			
+			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form-1" name="main-form">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="integral">
+				<input type="hidden" name="admin_email" value="mail@gmail.com">
+				<input type="hidden" name="form_subject" value="Заявка с лендинга «Интеграл»">
+				<!-- END Hidden Required Fields -->
+				<div class="input-group">
+					<input type="text"  name="name" placeholder="Ваше имя" required>
+				</div>				
+				<div class="input-group">
+					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+				</div>
+				<div class="checkbox-wrap">			
+					<label>
+						<input class="checkbox" type="checkbox" name="name" required>						
+						<span class="modal-checkbox">Отправляя данную форму я соглашаюсь на обработку и хранение  введенных данных</a>
+						</span>
+					</label>
+				</div>
+				<input type="hidden"  name="s_formi" value="заказать звонок">
+				<button type="submit" name="submit" class="btn btn-blue modal-btn">Отправить</button>
+			</form>
+		</div>
+		<br>
+	</div>
+	<!-- Конец Модальное окно заказать звонок -->
 	<!--  модальное окно политика конфиденциальности -->
 	<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog">
 		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
@@ -356,7 +419,7 @@
 				<p>Ваши имя, телефон и e-mail не передаются третьим лицам, ни при каких условиях кроме случаев, связанных с исполнением требований законодательства. Ваше имя, телефон и e-mail на защищенных серверах сервиса getresponse.com и используются в соответствии с его политикой конфиденциальности.</p>
 				<p>Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.</p>
 				<h3>Как эти данные используются</h3>
-				<p>На сайте www.hodi.com.ua используются куки (Cookies) и данные о посетителях сервиса Google Analytics.</p>
+				<p>На сайте www.INTEGRAL используются куки (Cookies) и данные о посетителях сервиса Google Analytics.</p>
 				<p>При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного контента и сервисов для посетителей.</p>
 				<p>Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и сервисы не смогут работать должным образом.</p>
 				<h3>Как эти данные защищаются</h3>
@@ -364,7 +427,7 @@
 				<p>Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим Уведомлением о конфиденциальности, нормами и инструкциями. Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить ее.</p>
 				<p>Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки, несанкционированного использования и изменения информации, которую мы контролируем. Несмотря на то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации хакеров сторонних организаций.</p>
 				<p>В случае изменения данной политики конфиденциальности Вы сможете прочитать об этих изменениях на этой странице или, в особых случаях, получить уведомление на свой e-mail.</p>
-				<p>Для связи с администратором сайта по любым вопросам Вы можете написать письмо на e-mail: hodi.legko@gmail.com</p>
+				<p>Для связи с администратором сайта по любым вопросам Вы можете написать письмо на e-mail: hodi.INTEGRAL@gmail.com</p>
 			</div>
 		</div>
 	</div>
@@ -409,6 +472,7 @@
 	{"src" : "libs/remodal/remodal.min.js", "async" : false},
 	{"src" : "libs/validate/jquery.validate.min.js", "async" : false},
 	{"src" : "libs/validate/messages_ru.min.js", "async" : false},
+	{"src" : "libs/jquery.maskedinput-master/jquery.maskedinput.min.js", "async" : false},
 	{"src" : "js/common.js", "async" : false}
 	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 </script>

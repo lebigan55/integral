@@ -6,11 +6,60 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.about-content h2 {
+		text-align: right;
+	}
+	.about-content {
+	    margin-bottom: 315px;
+	}
+	.customs {
+		padding-top: 90px;
+	}
+	.customs-clearance .land-customs {
+	    width: 60%;
+	}
+	.ship-st-piter,
+	.plane-st-piter,
+	.truck-st-piter {
+	    top: 83px;
+	    left: 143px;
+	}
+	.ship-kingisep,
+	.truck-kingisep {
+	    top: 80px;
+	    left: 109px;
+	}
+	.plane-moscow,
+	.truck-moscow {
+	    top: 291px;
+	    left: 76px;
+	}
+	.truck-smolensk {
+	    top: 245px;
+	    left: 16px;
+	}
+	.truck-pskov {
+	    top: 140px;
+	    left: 50px;
+	}
+	.truck-vyborg {
+	    top: 55px;
+	    left: 150px;
+	}
+	.services {
+		min-height: 800px;
+		padding-top: 150px;
+	}
+	.contacts {
+		min-height: 900px;
+		padding-top: 150px;
+	}
+	.contacts-data-wrap::after {
+		display: none;
+	}
 }
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	
+@media only screen and (max-width : 768px) {	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -32,7 +81,31 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-
+	.main-screen-headline {
+		margin-bottom: 50px;
+	}
+	.about {
+		min-height: 1060px;
+	}
+	.equipment {
+		display: none;
+	}
+	.equipment-tablet {
+		display: block;
+		margin-top: -250px;
+		margin-left: 80px;
+	}
+	.about-content {
+		margin-bottom: 50px;
+	}
+	.customs-clearance .land-customs {
+	    width: 77%;
+	}
+	.contacts-data-wrap {
+		padding: 50px 70px;
+		position: absolute;
+		left: -225px;
+	}
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {

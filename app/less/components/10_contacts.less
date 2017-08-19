@@ -3,5 +3,76 @@
 	min-height: 1287px;
 	background: url("@{dir}bg-contacts-desk.jpg") center;
   	background-size: cover;
-  	padding-top: 270px;  	
+  	padding-top: 270px; 
+  	margin-bottom: -30px;
+  	position: relative; 	
 }
+.contacts-data-wrap {
+	width: 100%;
+	height: 610px;
+	background: rgba(7, 69, 82, 0.922);
+	padding: 50px 0 0 70px;
+	position: relative;
+	h2 {
+		color: @white;
+		margin-bottom: 45px;
+	}
+	p {
+		text-transform: uppercase;
+		font-family: @ff2;
+		color: @white;
+		font-size: @fsb;
+		margin-bottom: 40px;
+	}
+	a {
+		text-transform: uppercase;
+		font-family: @ff2;
+		color: @white;
+		font-size: @fsb;		
+	}
+	&:after {
+		content: '';
+		width: 100%;
+		border: 275px solid transparent;
+		border-top: 55px solid rgba(7, 69, 82, 0.922);			
+		position: absolute;
+		bottom: -330px;
+		left: 0;
+	}
+}
+.contacts-feedback {
+	width: 230px;
+	padding-top: 70px;
+	margin-left: 80px;	
+	a {
+		color: @gold;
+		font-size: 2.8rem;
+	}	
+	&__callback {
+		margin-bottom: 60px;
+		position: relative;
+		&:before {
+			content: '';
+			background: url("../img/svg/contacts_phone.svg") center no-repeat;
+			background-size: cover;
+			width: 60px;
+			height: 70px;
+			position: absolute;
+			left: -73px;
+		}
+	}
+	&__write {
+		position: relative;
+		&:before {
+			content: '';
+			background: url("../img/svg/Contacts_mail.svg") center no-repeat;
+			background-size: cover;
+			width: 62px;
+			height: 43px;
+			position: absolute;
+			top: -5px;
+			left: -73px;
+		}
+	}
+}
+

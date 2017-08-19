@@ -20,13 +20,11 @@ $(function() {
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
-	var burger = document.querySelector('.burger-container'),
-	header = document.querySelector('.header');
-
-	burger.onclick = function() {
-		header.classList.toggle('menu-opened');
-
-	};
+	$('.js-toggle-menu').click(function(e){
+          e.preventDefault();
+          $('.mobile-header-nav').slideToggle();
+          $(this).toggleClass('open');
+    });
 
 });
 $('.toggle-block').click(function() {
@@ -116,7 +114,6 @@ $(document).ready(function(){
 	});
 });
 
-$("#contact-call-back").validate();
-$("#contact-order-call").validate();
-$("#contact-get-price").validate();
-
+$("#modal-form").validate();
+$("#modal-form-1").validate();
+$(".phone").mask("+7 (999) 999-99-99");
