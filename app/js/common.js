@@ -1,6 +1,7 @@
 $(function() {
 
-
+	new WOW().init(); 
+	
 	// Smooth Scroll to block
 	$('a[href^="#l"]').click(function(){
 		var target = $(this).attr('href');
