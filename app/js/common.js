@@ -1,5 +1,17 @@
 $(function() {
 
+	$('#fullpage').fullpage({
+        navigation: false,
+        css3: true,
+        navigationPosition: 'left',
+        navigationTooltips: false,
+        responsiveWidth: 770,               
+        scrollingSpeed: 1700,               
+        afterResponsive: function(isResponsive){
+            
+        }
+    });
+
 	new WOW().init(); 
 	
 	// Smooth Scroll to block
