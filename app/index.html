@@ -120,12 +120,18 @@
 										<img src="img/area-truck.png" alt="area-truck">
 									</div>
 								</div>
-								<div class="equipment-images equipment-container wow fadeInRight" data-wow-offset="100" data-wow-delay="1.8s" data-wow-duration="5s">
-									<img src="img/container.png" alt="container">
+								<div class="equipment-images equipment-container">
+									<img src="img/container-1.png" alt="container">
 								</div>
-								<div class="equipment-images equipment-loader wow fadeInRight" data-wow-offset="100" data-wow-delay="1.8s" data-wow-duration="5s">
-									<img src="img/loader.png" alt="loader">
+								<div class="equipment-images equipment-loader">
+									<img src="img/loader-1.png" alt="loader">
+								</div>								
+								<!--<div class="equipment-images equipment-wheel-1">
+									<img src="img/wheel-1.png" alt="wheel">
 								</div>
+								<div class="equipment-images equipment-wheel-2">
+									<img src="img/wheel-2.png" alt="loader">
+								</div>-->
 							</div>
 						</div>
 						<div class="equipment-tablet">
@@ -145,7 +151,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="equipment">
+						<div class="equipment1">
 							<div class="col-sm-8 col-sm-offset-1">
 								<div class="truck-wrap">
 									<div class="equipment-images equipment-truck">
@@ -155,12 +161,18 @@
 										<img src="img/area-truck.png" alt="area-truck">
 									</div>
 								</div>
-								<div class="equipment-images equipment-container wow fadeInRight" data-wow-offset="100" data-wow-delay="1.8s" data-wow-duration="5s">
-									<img src="img/container.png" alt="container">
+								<div class="equipment-images equipment-container1">
+									<img src="img/container-1.png" alt="container">
 								</div>
-								<div class="equipment-images equipment-loader wow fadeInRight" data-wow-offset="100" data-wow-delay="1.8s" data-wow-duration="5s">
-									<img src="img/loader.png" alt="loader">
+								<div class="equipment-images equipment-loader1">
+									<img src="img/loader-1.png" alt="loader">
+								</div>								
+								<!--<div class="equipment-images equipment-wheel-1">
+									<img src="img/wheel-1.png" alt="wheel">
 								</div>
+								<div class="equipment-images equipment-wheel-2">
+									<img src="img/wheel-2.png" alt="loader">
+								</div>-->
 							</div>
 						</div>
 						<div class="equipment-tablet">
@@ -450,8 +462,7 @@
 		ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
 	}
 	loadCSS("_fonts.css"); //Load Libs CSS: Animate CSS	
-	loadCSS("libs/fullPage/jquery.fullPage.css"); //Load Libs CSS: fullPage CSS
-	loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
+	loadCSS("libs/fullPage/jquery.fullPage.css"); //Load Libs CSS: fullPage CSS	
 	loadCSS("libs/remodal/remodal.css"); //Load Libs CSS: Remodal CSS
 	loadCSS("libs/remodal/remodal-default-theme.css"); //Load Libs CSS: Remodal CSS
 	loadCSS("header-css/_header.css");   //Header Styles (compress & paste to header after release)
@@ -468,9 +479,7 @@
 
 <!-- Load Scripts -->
 <script>var scr = {"scripts":[
-	{"src" : "libs/modernizr/modernizr.js", "async" : false},
-	{"src" : "libs/animate/wow.js", "async" : false},
-	{"src" : "libs/animate/animate-css.js", "async" : false},
+	{"src" : "libs/modernizr/modernizr.js", "async" : false},	
 	{"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},	
 	{"src" : "libs/remodal/remodal.min.js", "async" : false},
 	{"src" : "libs/validate/jquery.validate.min.js", "async" : false},

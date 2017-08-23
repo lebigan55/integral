@@ -113,16 +113,18 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	left: 150px;
 	z-index: 20;
 }
-.equipment-container {
+.equipment-container,
+.equipment-container1 {
 	width: 435px;
-	top: 37px;
-	left: 163px;
-	z-index: 30;
+	top: -33px;
+	left: 626px;
+	z-index: 30;	        
 }
-.equipment-loader {
+.equipment-loader,
+.equipment-loader1 {
 	width: 440px;
 	top: -334px;
-	left: 294px;
+	left: 882px;
 	z-index: 50;
 }
 /*--------------------------------- start mobile menu ------------------------------*/
