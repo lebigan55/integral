@@ -39,7 +39,7 @@
 		<div class="loader_inner"></div>
 	</div>
 	<div class="remodal-bg">
-		<div  id="fullpage">
+		
 			<header class="main-header section fp-auto-height-responsive" id="section1">
 				<div class="container clearfix">
 					<div class="row">
@@ -110,7 +110,7 @@
 						</div>					
 					</div>
 					<div class="row">
-						<div class="equipment">
+						<div class="equipment equipment1">
 							<div class="col-sm-8 col-sm-offset-1">
 								<div class="truck-wrap">
 									<div class="equipment-images equipment-truck">
@@ -123,7 +123,7 @@
 								<div class="equipment-images equipment-container">
 									<img src="img/container-1.png" alt="container">
 								</div>
-								<div class="equipment-images equipment-loader">
+								<div class="equipment-images equipment-loader equipmentloader">
 									<img src="img/loader-1.png" alt="loader">
 								</div>								
 								<!--<div class="equipment-images equipment-wheel-1">
@@ -320,7 +320,7 @@
 					</div>
 				</div>
 			</section>
-			<footer class="contacts section"  id="section5">
+			<section class="contacts section"  id="section5">
 				<div class="container clearfix">
 					<div class="row">
 						<div class="col-sm-6 col-sm-offset-6">
@@ -341,16 +341,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="main-footer">
-								<a href="#modal-2">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
-							</div> 
-						</div>
-					</div>
+					
 				</div>
+			</section>
+			<footer class="main-footer">				
+				<a href="#modal-2">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>						
 			</footer>			
-		</div>
+		
 	</div>
 	<!-- Модальное окно -->
 	<div class="remodal remodal-feedback" data-remodal-id="modal" role="dialog">
@@ -462,7 +459,7 @@
 		ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
 	}
 	loadCSS("_fonts.css"); //Load Libs CSS: Animate CSS	
-	loadCSS("libs/fullPage/jquery.fullPage.css"); //Load Libs CSS: fullPage CSS	
+
 	loadCSS("libs/remodal/remodal.css"); //Load Libs CSS: Remodal CSS
 	loadCSS("libs/remodal/remodal-default-theme.css"); //Load Libs CSS: Remodal CSS
 	loadCSS("header-css/_header.css");   //Header Styles (compress & paste to header after release)
@@ -485,7 +482,7 @@
 	{"src" : "libs/validate/jquery.validate.min.js", "async" : false},
 	{"src" : "libs/validate/messages_ru.min.js", "async" : false},
 	{"src" : "libs/jquery.maskedinput-master/jquery.maskedinput.min.js", "async" : false},
-	{"src" : "libs/fullPage/jquery.fullPage.min.js", "async" : false},
+	
 	{"src" : "js/common.js", "async" : false}
 	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 </script>

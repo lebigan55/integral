@@ -611,12 +611,13 @@ label.error {
 }
 .about {
   width: 100%;
+  min-height: 1140px;
   background: url("../img/bg-about-desk.jpg") center;
   background-size: cover;
+  padding-top: 125px;
 }
 .about-content {
-  padding-top: 90px;
-  margin-bottom: 110px;
+  margin-bottom: 245px;
 }
 .about-content p {
   font-family: 'HeliosCondLightC', sans-serif;
@@ -625,14 +626,13 @@ label.error {
 }
 .customs {
   width: 100%;
+  min-height: 1130px;
   background: url("../img/bg-customs-desk.jpg") center;
   background-size: cover;
+  padding-top: 340px;
 }
 .map {
   position: relative;
-}
-.customs-clearance {
-  padding-top: 95px;
 }
 .customs-clearance h2 {
   color: #fff;
@@ -834,14 +834,15 @@ label.error {
 }
 .services {
   width: 100%;
+  min-height: 1133px;
   background: url("../img/bg-services-desk.jpg") center;
   background-size: cover;
+  padding-top: 285px;
 }
 .services h2 {
   text-align: center;
   color: #fff;
   margin-bottom: 90px;
-  padding-top: 90px;
 }
 .services-top img,
 .services-bottom img {
@@ -859,10 +860,12 @@ label.error {
 }
 .contacts {
   width: 100%;
+  min-height: 1300px;
   background: url("../img/bg-contacts-desk.jpg") center;
   background-size: cover;
   position: relative;
   z-index: 20;
+  padding-top: 270px;
 }
 .contacts-wrap {
   padding-top: 20px;
@@ -937,8 +940,8 @@ label.error {
 }
 .main-footer {
   text-align: center;
-  padding-top: 70px;
-  bottom: 0;
+  margin-top: -15px;
+  position: relative;
   z-index: 50;
 }
 .main-footer a {
