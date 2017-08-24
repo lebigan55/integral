@@ -612,8 +612,6 @@ label.error {
 .about {
   width: 100%;
   min-height: 1140px;
-  background: url("../img/bg-about-desk.jpg") center;
-  background-size: cover;
   padding-top: 125px;
 }
 .about-content {
@@ -627,8 +625,6 @@ label.error {
 .customs {
   width: 100%;
   min-height: 1130px;
-  background: url("../img/bg-customs-desk.jpg") center;
-  background-size: cover;
   padding-top: 340px;
 }
 .map {
@@ -835,8 +831,6 @@ label.error {
 .services {
   width: 100%;
   min-height: 1133px;
-  background: url("../img/bg-services-desk.jpg") center;
-  background-size: cover;
   padding-top: 285px;
 }
 .services h2 {
@@ -861,11 +855,9 @@ label.error {
 .contacts {
   width: 100%;
   min-height: 1300px;
-  background: url("../img/bg-contacts-desk.jpg") center;
-  background-size: cover;
   position: relative;
   z-index: 20;
-  padding-top: 270px;
+  padding-top: 170px;
 }
 .contacts-wrap {
   padding-top: 20px;

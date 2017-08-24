@@ -1,4 +1,10 @@
 $(function() {
+
+	$('.parallax-window1').parallax({imageSrc: 'img/bg-header-desk.jpg'});
+    $('.parallax-window2').parallax({imageSrc: 'img/bg-about-desk.jpg'});
+	$('.parallax-window3').parallax({imageSrc: 'img/bg-customs-desk.jpg'});
+	$('.parallax-window4').parallax({imageSrc: 'img/bg-services-desk.jpg'});
+	$('.parallax-window5').parallax({imageSrc: 'img/bg-contacts-desk.jpg'});
 	
 	$(".equipment-loader").delay(500).stop().animate({                 
 		left: "-=471px"
@@ -267,3 +273,4 @@ $(window).scroll(function(){
         }
     }
 });
+
