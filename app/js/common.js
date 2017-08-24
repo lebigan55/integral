@@ -18,7 +18,6 @@ $(function() {
 		top:'+=70px'
 	}, 3000);
 
-
 	// Smooth Scroll to block
 	$('a[href^="#l"]').click(function(){
 		var target = $(this).attr('href');
